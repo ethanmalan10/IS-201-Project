@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Simulator</title>
+    <link rel="stylesheet" href="css/scratch.css">
+    <style>
+        body {
+            background-color: #f0f8ff;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 20px auto;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Soccer Page</h1>
+        
+        <div class="navigation">
+            <a href="#players">Players</a> |
+            <a href="#stats">Teams</a> |
+            <a href="index.html">Return to Resume</a>
+        </div>
+
+        <div class="content-section">
+            <h2 id="players">Favorite Players</h2>
+            <ol>
+                <li>Forwards
+                    <ul>
+                        <li>Lionel Messi</li>
+                        <li>Christian Pulisic</li>
+                        <li>Antoine Griezmann</li>
+                    </ul>
+                </li>
+                <li>Midfielders
+                    <ul>
+                        <li>Kevin De Bruyne</li>
+                        <li>Luka Modrić</li>
+                        <li>Bruno Fernandes</li>
+                    </ul>
+                </li>
+                <li>Defenders
+                    <ul>
+                        <li>Virgil van Dijk</li>
+                        <li>Rúben Dias</li>
+                        <li>João Cancelo</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="content-section">
+            <h2 id="stats">Teams</h2>
+            <img src="assets/img/FC-Barcelona.jpg" alt="FC Barcelona" class="photo">
+        
+                <ul>
+                    <li>FC Barcelona</li>
+                    <li>AC Milan</li>
+                    <li>Manchester City</li>
+                </ul>
+                <div>
+                    <p>I have grown up playing soccer. I loved Machester City when I was young. In my youth I started following
+                        Messi and Barcelona. Now, I enjoy AC Milan and the American forward Christian Pulisic.
+                    </p>
+                </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Messi Highlight Video</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nFg0N_JesWs?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Soccer Performance Data</h2>
+            <div class='tableauPlaceholder' id='viz1744913791224' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='MLS ' src='https://public.tableau.com/static/images/So/SoccerTables/MLS/1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='SoccerTables/MLS' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https://public.tableau.com/static/images/So/SoccerTables/MLS/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1744913791224');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width='420px';
+                vizElement.style.height='677px';
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        </div>
+
+        <div class="navigation">
+            <a href="webapp.html">Go to Joke Simulator</a>
+        </div>
+    </div>
+</body>
+</html>
